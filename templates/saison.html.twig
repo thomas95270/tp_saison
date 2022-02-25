@@ -1,0 +1,17 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Saison | {{saison}}{% endblock %}
+
+{% block saison %}
+<h2 class="text-center"> {{message}}</h2>
+{% endblock %}
+
+{% block bg %}
+id='{{saison}}'
+{% endblock %}
+
+{% block image %}{{image}}{% endblock %}
+
+{% block comment %}
+    {{comment}}
+{% endblock %}
