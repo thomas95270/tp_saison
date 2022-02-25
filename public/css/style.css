@@ -3,20 +3,23 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-header {
-	background-color: rgba(255, 255, 255, 0.5);
-}
+/* *********************BODY******************** */
 body {
 	background-image: url(../images/background.jpg);
 	background-size: cover;
 }
-ul {
-	list-style-type: none;
-	display: flex;
-	justify-content: space-around;
-	width: 100%;
+/* *********************HEADER******************** */
+
+header {
+	background-color: rgba(240, 240, 240, 0.6);
 }
 
+/************* Titre*/
+h1 {
+	text-decoration: underline;
+}
+
+/* *********************NAVAIGATION******************** */
 li {
 	border-radius: 5px;
 	width: 15%;
@@ -32,41 +35,38 @@ a {
 a:hover {
 	cursor: pointer;
 }
+/* *********************MAIN******************** */
 .container {
 	text-align: center;
 	height: 70vh;
+	min-height: 300px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 }
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+/* *********************IMAGE******************** */
 img {
 	width: 35%;
 }
-#Printemps {
-	background-color: rgba(255, 100, 100, 0.7);
-}
-#Ete {
-	background-color: rgba(60, 60, 255, 0.7);
-}
-#Automne {
-	background-color: rgba(216, 176, 46, 0.7);
-}
-#Hiver {
-	background-color: rgba(240, 240, 240, 0.6);
-}
+
+/* *********************GESTION DES COULEURS******************** */
+
 .Printemps {
-	background-color: rgba(255, 100, 100, 0.7);
+	background-color: rgba(255, 100, 100, 0.75);
 }
 .Ete {
-	background-color: rgba(60, 60, 255, 0.7);
+	background-color: rgba(100, 100, 255, 0.8);
 }
 .Automne {
-	background-color: rgba(216, 176, 46, 0.7);
+	background-color: rgba(216, 176, 46, 0.75);
 }
 .Hiver {
 	background-color: rgba(240, 240, 240, 0.6);
-}
-
-h1 {
-	text-decoration: underline;
 }
